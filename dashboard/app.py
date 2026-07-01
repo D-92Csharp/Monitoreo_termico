@@ -1,5 +1,4 @@
-﻿import sqlite3
-import pandas as pd
+﻿import pandas as pd
 import streamlit as st
 import folium
 from streamlit_folium import st_folium
@@ -7,13 +6,11 @@ import plotly.express as px
 
 st.set_page_config(page_title="Monitoreo Térmico - Plantas Solares Panamá", layout="wide")
 
-# --- Cargar datos ---
+# --- Cargar datos (desde CSV, generados por el pipeline de GEE/clustering) ---
 @st.cache_data
 def cargar_datos():
-    conn = sqlite3.connect("data/processed/monitoreo_termico.db")
-    mediciones = pd.read_sql("SELECT * FROM mediciones_termicas", conn)
-    resumen = pd.read_sql("SELECT * FROM resumen_clustering", conn)
-    conn.close()
+    mediciones = pd.read_csv("data/processed/mediciones_termicas.csv")
+    resumen = pd.read_csv("data/processed/resumen_clustering.csv")
     return mediciones, resumen
 
 mediciones, resumen = cargar_datos()
@@ -107,3 +104,4 @@ with col_graficos:
 st.divider()
 st.subheader("Tabla de datos filtrados")
 st.dataframe(datos_filtrados[["nombre", "nivel_impacto", "anomalia_termica"]].sort_values("anomalia_termica", ascending=False))
+
