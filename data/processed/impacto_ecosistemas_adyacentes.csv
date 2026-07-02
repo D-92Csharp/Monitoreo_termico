@@ -1,0 +1,50 @@
+id_planta,nombre,anillo,pct_bosque,pct_agricola,pct_urbano,pct_agua,nivel_impacto,anomalia_termica_promedio
+1,Mayorca Solar|AES Panamá,0_500m,7.7,90.0,2.3,0.0,Impacto moderado,0.2634585952571225
+2,Planta Solar PSZ1,0_500m,18.4,67.9,13.7,0.0,Impacto moderado,0.0967869023997529
+3,Los Ángeles,0_500m,2.9,76.0,20.9,0.0,Impacto moderado,0.1359752449399016
+4,Planta solar sin nombre 1,0_500m,2.2,96.7,1.1,0.0,Impacto moderado,-0.0166844252327038
+5,Argentum Solar,0_500m,46.8,49.5,3.7,0.0,Alto impacto,0.1639150532456175
+6,Oro Solar,0_500m,4.0,95.8,0.0,0.0,Impacto moderado,-0.1457757017198524
+7,Chupampa solar atalaya,0_500m,46.6,9.5,43.8,0.0,Alto impacto,0.4319573107132995
+8,Parque Fotovoltaico Paris,0_500m,37.9,46.4,8.6,0.0,Impacto moderado,0.2111388219840359
+9,Parque Solar Sarigua - Egesa,0_500m,81.7,0.0,0.0,18.3,Bajo impacto,-0.9482442914067012
+10,Planta fotovoltaica,0_500m,24.5,75.5,0.0,0.0,Alto impacto,0.0410762095587463
+11,Jagüito Solar,0_500m,13.1,72.1,11.0,0.0,Impacto moderado,0.344941056211007
+12,Planta Solar Don Félix,0_500m,13.7,66.6,17.4,0.0,Impacto moderado,0.3045653069682115
+13,Divisa Solar,0_500m,9.8,69.5,18.8,0.0,Alto impacto,0.5787265158130229
+14,Milton Solar,0_500m,42.1,55.2,2.7,0.0,Impacto moderado,-0.0547117127684185
+15,Parque Fotovoltaico Vista Alegre,0_500m,37.8,57.1,4.7,0.0,Alto impacto,0.2280092062728077
+16,La Mesa,0_500m,27.3,72.7,0.0,0.0,Alto impacto,0.1528963466006863
+17,Campo solar,0_500m,23.1,76.8,0.0,0.0,Alto impacto,0.0330162191492619
+18,PV Estrella Solar,0_500m,27.1,72.2,0.6,0.0,Alto impacto,0.2813572560510557
+19,Paneles Solares POCRI,0_500m,24.0,43.3,23.2,0.0,Impacto moderado,-0.346889595927584
+20,Planta Solar Vista Hermosa 1 y 2,0_500m,23.8,46.2,20.3,0.0,Impacto moderado,-0.3764277430026804
+21,PFV Chiriqui Solar,0_500m,27.3,72.7,0.0,0.0,Alto impacto,0.3853727443837123
+22,Andrea’s Solar Plant,0_500m,46.1,36.3,17.6,0.0,Alto impacto,0.2746692160716379
+23,IKAKO III,0_500m,29.2,70.7,0.1,0.0,Alto impacto,0.360968841920284
+24,IKAKO II,0_500m,32.1,67.8,0.1,0.0,Alto impacto,0.3310277476851923
+25,IKAKO I,0_500m,30.0,69.9,0.1,0.0,Alto impacto,0.2910844773521453
+26,Planta fotovoltaica Ikakos,0_500m,39.6,59.9,0.5,0.0,Alto impacto,0.005952839127617
+27,Parque solar Penonomé,0_500m,2.3,73.3,21.9,0.0,Impacto moderado,0.0825957337627067
+28,Proyecto fotovoltáico Alma Mater | Universidad de Panamá,0_500m,51.4,48.6,0.0,0.0,Bajo impacto,-0.595082734237794
+29,PV Baco Solar,0_500m,32.2,64.1,3.7,0.0,Alto impacto,0.493461492602692
+30,Granja Solar Alanje Uno,0_500m,38.9,48.2,11.3,0.2,Impacto moderado,-0.0188859622377986
+31,Planta Prudencia Solar,0_500m,13.9,80.6,0.0,5.2,Alto impacto,0.3167854561645415
+32,Sol de David,0_500m,31.6,61.0,3.0,0.0,Alto impacto,0.6786407571635797
+33,Parque Solar La Esperanza,0_500m,37.8,58.7,1.2,0.0,Alto impacto,0.4689225497119769
+34,PV Sol Real,0_500m,98.8,0.8,0.3,0.0,Bajo impacto,-0.1082481453509842
+35,Antón Solar 1,0_500m,20.4,78.7,0.4,0.0,Impacto moderado,0.137383107724138
+36,Parque Fotovoltaico,0_500m,44.4,54.5,1.1,0.0,Alto impacto,0.2384005709974214
+37,PV Caldera Solar,0_500m,39.8,57.9,2.2,0.0,Alto impacto,0.441246798689761
+38,Parque Fotovoltaico AES Caoba Solar,0_500m,36.5,59.7,3.8,0.0,Alto impacto,0.3012209608942723
+39,Solar Pro,0_500m,40.9,55.9,3.2,0.0,Alto impacto,0.27253054718684
+40,El Fraile Solar I,0_500m,37.2,61.8,1.0,0.0,Alto impacto,0.6903275836602367
+41,Corotú Solar,0_500m,19.7,74.5,5.8,0.0,Alto impacto,0.0704846486104605
+42,Rodeo Solar,0_500m,68.2,31.4,0.1,0.0,Alto impacto,-0.0060347021619554
+43,Estí Solar I,0_500m,83.2,15.8,0.9,0.0,Alto impacto,0.2988149295664882
+44,Coclé Solar 1,0_500m,40.3,59.7,0.0,0.0,Alto impacto,0.1544752925633337
+45,PV Madre Vieja,0_500m,87.5,12.5,0.0,0.0,Bajo impacto,-0.4340543737359945
+46,Mendozas Solar,0_500m,20.2,79.4,0.3,0.0,Impacto moderado,0.1316448872630253
+47,Planta solar pacora 2,0_500m,1.4,97.8,0.0,0.0,Impacto moderado,0.1380535015389356
+48,planta de paneles solares,0_500m,13.8,72.6,12.6,0.0,Impacto moderado,-0.0910015664068554
+49,Parque Fotovoltaico San Juan,0_500m,100.0,0.0,0.0,0.0,Alto impacto,0.0322243508469191

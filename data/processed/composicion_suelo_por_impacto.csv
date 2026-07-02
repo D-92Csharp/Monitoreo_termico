@@ -1,0 +1,4 @@
+nivel_impacto,n_plantas,pct_bosque,pct_agricola,pct_urbano,pct_agua,anomalia_termica_promedio
+Alto impacto,28,38.3,57.0,4.1,0.2,0.3
+Bajo impacto,4,79.8,15.5,0.1,4.6,-0.5
+Impacto moderado,17,16.9,71.0,9.9,0.0,0.0
