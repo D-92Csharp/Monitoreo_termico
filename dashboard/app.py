@@ -2,7 +2,6 @@
 import numpy as np
 import streamlit as st
 import folium
-from folium.plugins import HeatMap
 from streamlit_folium import st_folium
 import plotly.express as px
 import plotly.graph_objects as go
@@ -171,8 +170,6 @@ with tab_mapa:
         (float(datos["anomalia_termica"].min()), float(datos["anomalia_termica"].max())),
     )
 
-    mostrar_heatmap = st.sidebar.checkbox("Mostrar mapa de calor de anomalía térmica", value=False)
-
     datos_filtrados = datos[
         (datos["year"] == anio_seleccionado)
         & (datos["nivel_impacto"].isin(niveles_seleccionados))
@@ -196,14 +193,6 @@ with tab_mapa:
 
         mapa = folium.Map(location=[8.5, -80.5], zoom_start=7, tiles=None)
         agregar_capas_base(mapa, tile_del_anio, f"Satelital {anio_seleccionado} (Sentinel-2)")
-
-        if mostrar_heatmap and len(datos_filtrados) > 0:
-            minimo = datos_filtrados["anomalia_termica"].min()
-            puntos_heatmap = [
-                [fila["latitud"], fila["longitud"], fila["anomalia_termica"] - minimo + 0.05]
-                for _, fila in datos_filtrados.iterrows()
-            ]
-            HeatMap(puntos_heatmap, name="Mapa de calor", radius=25, blur=20).add_to(mapa)
 
         for _, fila in datos_filtrados.iterrows():
             folium.CircleMarker(
